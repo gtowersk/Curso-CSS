@@ -1,0 +1,50 @@
+*{
+    font-size: 24px;
+}
+h1{
+    color: Red;
+    text-align: center;
+    font-size: 2em;
+  }
+/* Selectores de Elementos */
+
+
+{
+    color: orange;
+  }
+
+{
+    color: green;
+  }
+
+/* Selectores de Clases */
+{
+    color:red;
+  }
+{
+    color: blue;
+  }
+{
+    text-decoration: line-through;
+  }
+/* Selectores de ID */
+
+li{
+  list-style:none;
+}
+
+{
+    background-color: #ff9999;
+    border-left: 6px solid #993333;
+    
+  }
+{
+    background-color: #fdff99;
+    border-left: 6px solid #c0b843;
+    
+  }
+{
+    background-color: #a2ff99;
+    border-left: 6px solid #369933;
+    
+  }

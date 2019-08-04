@@ -1,0 +1,47 @@
+h1{
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    
+    font-size: 2em;
+}
+p{
+    font-size: 1.3em;
+    padding-left: 25px;
+}
+
+/* SELECTORES DE PRESENCIA Y VALOR */
+{
+    text-decoration: underline;
+}
+
+{
+    color: green;
+}
+
+{
+    color:blue;
+}
+
+
+/* SELECTORES POR VALOR TEXTUAL */
+
+{
+    color: orange;
+}
+
+{
+    border: 5px solid red;
+    background-color: gray;
+
+}
+{
+    border: 5px double blue;
+    background-color: aqua;
+
+}
+{
+    border: 5px dashed red;
+}
