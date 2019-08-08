@@ -1,0 +1,84 @@
+/* Títulos */
+.titulo{
+  text-align: center;
+  margin-bottom: 45px;
+}
+/* Valores numéricos absolutos */
+
+
+.q {
+  width: ;
+  font-size: ;
+}
+.mm {
+  width: ;
+  font-size: ;
+}
+.cm {
+  width: ;
+  font-size: ;
+}
+.in {
+  width: ;
+  font-size: ;
+}
+.pt {
+  width: ;
+  font-size: ;
+}
+.pc {
+  width: ;
+  font-size: ;
+}
+.px {
+  width: ;
+  font-size: ;
+}
+p {
+  margin: ;
+  padding: ;
+  border: solid black;
+  background-color: gray;
+  color: white;
+}
+
+/* Valores numéricos realtivos */
+.padre{
+  font-size: 10px;
+}
+.em{
+  font-size: ;
+  border: 5px solid red;
+}
+.rem{
+  font-size: ;
+  border: 5px solid red;
+}
+/* Valores numéricos sin unidades */
+
+body,html{
+  margin: 0;
+}
+
+.entrelinea{
+  line-height: ;
+}
+
+/* Porcentajes */
+.cien,.setenta {
+  margin: 10px;
+  font-size: 200%;
+  color: white;
+  height: 150px;
+  border: 2px solid black;
+}
+
+.cien {
+  background-color: red;
+  width: ;
+}
+
+.setenta {
+  background-color: blue;
+  width: ;
+}

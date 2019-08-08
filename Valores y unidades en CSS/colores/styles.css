@@ -1,0 +1,52 @@
+/* Colores */
+
+.clave, .hexa, .rgb, .hls,.rgba,.hsla{
+    margin: 10px;
+    font-size: 200%;
+    color: white;
+    height: 50px;
+    border: 2px solid black;
+  }
+  /* Colores clave */
+  .rojo{
+    background-color: ;
+  }
+  .orange{
+    background-color: ;
+  }
+  /* Colores Hexadecimales */
+  
+  .hexa1{
+    background-color: ;
+  }
+  .hexa2{
+    background-color: ;
+  }
+  /* Colores RGB */
+  
+  .rgb1{
+    background-color: ;
+  }
+  .rgb2{
+    background-color: ;
+  }
+  /* Colores HSL */
+  
+  .hls1{
+    background-color: ;
+  }
+  .hls2{
+    background-color: ;
+  }
+  /* Colores RGBA y HSLA */
+  
+  .rgba{
+    background-color: ;
+    position: relative;
+    top: 30px;
+    left: 50px;
+  }
+  .hsla{
+    background-color: ;
+  }
+
