@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cascada y Herencia</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <!--  Importancia  -->
+    <div class="importancia" id="importancia">
+        <p>Importancia</p>
+    </div>
+
+    <!--  Especificidad  -->
+    <!--<h1>Especificidad</h1>
+    <div class="contenedor">
+        <div class="lista">
+            <ol>
+                <li>Unidades de millar: Puntúa 1 en esta columna si la declaración está dentro de un atributo style (como las declaraciones que no tienen selectores, que su especificidad es siempre 1000). Sino puntúa 0.
+                </li>
+                <li>Centenas: Puntúa 1 en esta columna por cada selector ID contenido en el selector.</li>
+                <li>Decenas: Puntúa 1 en esta columna para cada selector de clase, selector de atributo o de pseudo-clase contenidos en el selector.</li>
+                <li>Unidades: Puntúa 1 en esta columna por cada selector de elemento o pseudo-elemento contenidos en el selector.
+                </li>
+            </ol>
+        </div>
+        <div class="tabla">
+            <table class="standard-table">
+                <thead>
+                    <tr>
+                        <th scope="col">Selector</th>
+                        <th scope="col">1000</th>
+                        <th scope="col">100</th>
+                        <th scope="col">10</th>
+                        <th scope="col">1</th>
+                        <th scope="col">Especif. Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>h1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0001</td>
+                    </tr>
+                    <tr>
+                        <td>#important</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0100</td>
+                    </tr>
+                    <tr>
+                        <td>h1 + p::first-letter</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>3</td>
+                        <td>0003</td>
+                    </tr>
+                    <tr>
+                        <td>li &gt; a[href=*"en-US"] &gt; .inline-warning</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>0022</td>
+                    </tr>
+                    <tr>
+                        <td>#important div &gt; div &gt; a:hover, dentro de un atributo style</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>1113</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>-->
+    <div class="orden"></div>
+    <div class="herencia">
+        <p class="parrf">Parrafo 1</p>
+        <p>Parrafo 2</p>
+    </div>
+
+
+</body>
+
+
+</html>

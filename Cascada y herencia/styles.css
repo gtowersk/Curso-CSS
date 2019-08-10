@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.importancia {
+    background-color: orange !important;
+}
+
+#importancia {
+    background-color: gray;
+}
+
+
+/* Estilos de las tablas */
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-bottom: 4em;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+td {
+    text-align: center;
+}
+
+thead {
+    background-color: rgb(235, 235, 235);
+}
+
+tbody {
+    font-style: italic;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+caption {
+    padding: 15px;
+}
+
+
+/* Grid */
+
+.contenedor {
+    margin: 50px auto;
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.lista {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding: 0 35px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 25px;
+}
+
+.orden {
+    width: 50%;
+    height: 100px;
+    margin: 15px auto;
+    background-color: red;
+}
+
+.orden {
+    background-color: orange;
+}
+
+.herencia {
+    color: red;
+    border: 5px dashed red;
+}
+
+.parrf {
+    color: initial;
+    border: inherit;
+}
