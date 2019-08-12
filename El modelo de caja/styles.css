@@ -1,0 +1,23 @@
+*{
+    margin:0;
+}
+p{
+    text-align: center;
+    font-size: 50px;
+}
+
+.p1{
+    border: 20px dashed red;
+    margin:50px;
+    padding: 50px;
+}
+.p2{
+    border-width: 15px;
+    border-style: double;
+    border-color: aqua;
+    margin:50px;
+    padding: 50px;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top:120px; 
+}
