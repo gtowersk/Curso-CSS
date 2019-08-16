@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    font-size: 23px;
+    font-family: Arial,Verdana;
+    font-style: normal;
+    
+    text-transform: capitalize;
+    
+    text-shadow: 4px 4px 0 blue,
+    14px 14px 0 green;
+
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
