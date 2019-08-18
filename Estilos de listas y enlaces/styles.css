@@ -1,0 +1,24 @@
+ul {
+    padding-left: 1rem;
+    list-style-type: none;
+  }
+  
+ul li {
+  padding-left: 1.3rem;
+  background-image: url(/sale-tag.svg);
+  background-position: 0;
+  background-size: 1rem .8rem;
+  background-repeat: no-repeat;
+
+}
+
+a{
+  cursor: wait ;
+  background: url('/sale-tag.svg') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+ 
+
+  
+ }
+ 
