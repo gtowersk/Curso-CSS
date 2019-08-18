@@ -1,0 +1,17 @@
+@font-face{
+    font-family: "mifuente";
+    src: url("/NikolasandPine.woff");
+}
+@font-face{
+    font-family: "holis";
+    src: url("/Misti-Nicole-TTF.woff");
+}
+h1{
+    font-family: "mifuente";
+}
+h2{
+    font-family: "holis";
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+}
