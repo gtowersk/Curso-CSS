@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: 250px;
+
+    max-width: 1400px;
+
+    margin: 50px auto;
+
+    background-color: gold;
+
+    border: 40px solid black;
+
+    border-image-source: url("/borders/border-160.png");
+    
+    border-image-slice: 40;
+    border-image-repeat: round;
+
+
+}
