@@ -1,0 +1,17 @@
+
+.contenedor{
+    width: 100%;
+    height: 800px;
+
+    max-width: 1400px;
+
+    
+    background-color: white;
+
+   
+}
+
+img{
+    float: left;
+    shape-outside: circle(50%);
+}
