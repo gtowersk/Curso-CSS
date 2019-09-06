@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chilanka', cursive;
+    color: aliceblue;
+}
+.food-section{
+    width: 100%;
+    height: 100vh;
+    background-color: #242B2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.section-tittle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.border{
+    width: 35%;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 20px auto 30px auto;
+}
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.food-box{
+    max-width: 33.33%;
+    padding: auto;
+    text-align: center;
+
+}
+
+.food-icon{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: 4px solid aliceblue;
+    border-radius: 50%;
+    margin: 15px 0;
+}
+.food-icon i{
+    line-height: 75px;
+    font-size: 2.5rem;
+}
+.food-tittle{
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+.food-desc{
+    color: rgba(240, 248, 255, 0.712);
+}
+
+@media screen and (max-width:1200px){
+    .container{
+        height: 100%;
+        border-radius: 0;
+    }
+}
+@media screen and (max-width:750px){
+    .food-box{
+        max-width: 50%;
+    }
+    .food-section{
+        height: 100%;
+    }
+}
+@media screen and (max-width:550px){
+    .food-box{
+        max-width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid aliceblue;
+    }
+
+}
